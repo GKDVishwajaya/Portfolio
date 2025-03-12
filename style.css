@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+body {
+    min-width: 100vw;
+    background-color: rgb(169, 255, 249);
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background: #feeffe;
+    box-shadow: 0 0 1.5em 0.1em black;
+    display: flex;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #040404;
+}
