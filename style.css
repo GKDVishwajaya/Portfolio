@@ -1,6 +1,34 @@
 * {
     margin: 0;
     padding: 0;
-   
 }
- 
+
+html, body {
+    background: #0e1014;
+    font-family: "Exo", sans-serif;
+}
+
+.row {
+    min-height: 15vh;
+
+}
+
+.row .links ul {
+    display: flex;  /* Make the UL a flex container */
+    justify-content: right;  /* Center items horizontally */
+    gap: 20px; /* Optional: Adds spacing between items */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    align-items: center;
+}
+
+.row .links li {
+    list-style: none;
+}
+
+.row .links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2em;
+}
