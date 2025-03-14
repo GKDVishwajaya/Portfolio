@@ -89,7 +89,7 @@ body {
 .links li a:hover {
     /* color: rgb(255, 204, 0); */
     /* border: solid 3px  rgb(255, 204, 0); */
-    color: #000;
+    color: #ffffff;
     border-radius: 8px;
     /* background-color: rgb(0, 255, 166); */
     border: dashed 0.8px rgb(170, 0, 255);
@@ -100,7 +100,7 @@ body {
 }
 
 a:hover {
-    color: #000;
+    color: #ffffff;
 }
 
 
@@ -121,7 +121,7 @@ a:hover {
 .landing {
     width: 90vw;
     height: 80vh;
-    margin-top: 2vh;
+    margin-top: 1vh;
     color: #bebebe;
     justify-items: center;
     justify-content: center;
@@ -131,7 +131,7 @@ a:hover {
 .info {
     /* border: #bebebe 1px solid; */
     width: 50vw;
-    height: 30vh;
+    height: 40vh;
     float: left;
     justify-content: center;
     align-items: center;
@@ -140,6 +140,8 @@ a:hover {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 300;
+    margin-left: 5vw;
+    margin-top: 7%;
 }
 
 .myname {
@@ -159,4 +161,54 @@ a:hover {
     to {
         background-position: 200%;
     }
+}
+
+.socialmedia {
+    /* border: 1px rgb(204, 0, 255) solid; */
+    border-radius: 20px;
+
+    background: linear-gradient(to left, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 10.5s linear infinite;
+
+
+    width: 15vw;
+    height: 6vh;
+    justify-items: center;
+    float: left;
+    justify-content: space-between;
+    display: flex;
+}
+
+.icon {
+    /* border: 1px white solid; */
+    width: 2.7vw;
+    height: 6vh;
+}
+
+.icon i {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.bx {
+    font-size: 34px;
+}
+
+.myimage {
+    border: 3px dashed #01aaff;
+    margin-right: 5vw;
+    margin-top: 6.5%;
+    height: 50vh;
+    width: 23vw;
+    float: right;
+    border-radius: 55%;
+    background-image: url(images/logos/mylogo-01.svg);
+    background-size: 132%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
